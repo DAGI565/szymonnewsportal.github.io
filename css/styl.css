@@ -1,0 +1,410 @@
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 4px;
+  ;
+  
+}
+
+
+.naglowek{
+  display: flex;
+  width: 100%;
+  height: 125px;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  
+
+}
+
+.baner{
+  display: flex;
+  align-items: center;
+  
+}
+
+.naw{
+  display: flex;
+  justify-content: right;
+  margin-right: 10px;
+  
+
+}
+
+
+#ob{
+  height: 50px;
+  display: flex;
+  justify-content: left;
+}
+
+.naw-tekst{
+  transition: all 1s;
+  margin-right: 50px;
+  
+  
+}
+.naw-tekst:hover{
+  cursor: pointer;
+  font-size: 150%;
+}
+
+
+.main{
+  display: flex;
+  border-radius: 5px;
+  margin-top: 100px;
+  width: 100%;
+  background-color: white;
+  min-height: 950px;
+  padding: 30px;
+  justify-content: center;
+  
+}
+
+
+.naw2{
+  background-color: grey;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  min-height: 945px;
+  height: auto;
+  color: white;
+  margin-bottom: 20px;
+  
+
+
+}
+
+
+.naw2-tekst{
+  transition: all 1s;
+  margin-bottom: 100px;
+  
+  
+}
+
+.naw2-tekst:hover{
+  cursor: pointer;
+  font-size: 150%;
+}
+
+.wpisy{
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px; 
+  min-height: 950px;
+  max-width: 1430px;
+  width: auto;
+  height: auto;
+  margin-left: 30px;
+  
+
+}
+.tekst{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(216, 216, 216);
+  position: relative;
+  overflow-wrap: break-word;
+  min-height: 190px;
+  height: auto;
+  min-width: 150px;
+  width: auto;
+  margin-bottom: 50px;
+  padding: 10px;
+  padding-left: 20px;
+  transition: all 1s;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+}
+.tekst:hover{
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
+.link-button {
+  text-decoration: none;
+  background-color: rgb(189, 187, 187);
+  color: black;
+  margin-top: 200%;
+  padding: 2px 6px 2px 6px;
+  transition: all 70ms;
+  border-radius: 10px;
+
+  
+}
+.link-button:hover{
+  color: black;
+  border: 1px solid black;
+}
+
+
+.edit-box{
+  margin-top: 5%;
+}
+
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.stopka{
+  clear: both;
+}
+
+.wpis{
+  
+  display: flex;
+  flex-flow: column wrap;
+  min-width: 220px;
+  width: 50%;
+  height: 950px;
+  padding: 25px;
+}
+
+.nagl{
+  text-align: center;
+  
+}
+
+.wpis-tekst, .wpis-tytul{
+  
+  margin-top: 20px;
+  width: 60%;
+  text-align: justify;
+  
+}
+div.tekst .delete-box{
+  position: relative;
+  margin-top: 5%;
+}
+
+.komentarze{
+  width: 50%;
+  min-height: 950px;
+  height: auto;
+  border-left: 5px solid grey;
+  padding: 25px;
+  text-align: center;
+  align-items: center;
+
+}
+.komentarze textarea
+{
+    width: 50%;
+    height: 40px;
+    border: none;
+    border: 2px solid grey;
+    background-color: transparent;
+    margin-bottom: 5px;
+    resize: none;
+    outline: none;
+    margin-top: 5px;
+}
+.profilowe{
+  border: 0.5px solid grey;
+  width: 70px;
+  height: 70px;
+}
+.komentarz{
+  background-color: rgb(216, 216, 216);
+  position: relative;
+  overflow-wrap: break-word;
+  min-height: 120px;
+  height: auto;
+  min-width: 100px;
+  width: auto;
+  margin-bottom: 15px;
+  padding: 10px;
+  padding-left: 20px;
+  transition: all 1s;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+  text-align: center;
+  margin-top: 20px;
+}
+
+div.komentarze input{
+  width: 50%;
+}
+
+.delete-box{
+  
+  background-image: url("smiec2.jpg");
+  width: 30px;
+  height: 30px;
+}
+.delete{
+  position: relative; 
+  bottom: 33px;
+  background-color: black;
+  opacity: 20%;
+  border-radius: 10px;
+  min-width: 30px;
+  width: 100%;
+  height: 100%;
+  color: transparent;
+  border: none;
+}
+.smietnik{
+  width: 30px; 
+  height: 30px; 
+  border-radius: 10px;
+}
+.delete:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 600px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.logowanie {
+  left: 50%;
+  width: 300px;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#log, #pass {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.akceptuj{
+  background-color: rgb(25, 168, 25);
+}
+
+.kasuj{
+  background-color: rgb(221, 57, 57);
+}
+.akceptuj, .kasuj {
+  width: 100%;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;
+  transition: all 0.5s;
+  margin-bottom: 5px;
+  
+}
+
+.akceptuj:hover, .kasuj:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.pomoc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 220px;
+  width: 50%;
+  height: 950px;
+}
+
+.informacje-konta{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  flex-direction: column;
+  min-width: 400px;
+  width: 60%;
+  height: 80%;
+  background-color: rgb(182, 181, 181);
+  border: 4px solid rgb(114, 114, 114);
+
+
+}
+.informacje-konta p{
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.przycisk {
+  background-color: rgb(241, 49, 49);
+  border: 2px solid rgb(241, 49, 49);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;
+  transition: all 0.5s;
+  margin-bottom: 5px;
+}
+
+.przycisk:hover {
+  color: white;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.edycja{
+
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.edycja-text{
+  width: 50%;
+  height: 40px;
+  border: none;
+  border: 2px solid grey;
+  background-color: transparent;
+  margin-bottom: 5px;
+  resize: none;
+  outline: none;
+  margin-top: 5px;
+
+}
+
+.logowanie label{
+  font-size: 1px;
+}
+
+.log-main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
